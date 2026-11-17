@@ -1,0 +1,43 @@
+DDoS Attack
+
+A Distributed Denial-of-Service (DDoS) attack attempts to overwhelm a server, service, or network with a large amount of traffic. The excessive traffic can make the targeted service slow or unavailable.
+
+DDoS Indicators
+
+Common indicators of DDoS activity include unusually high traffic volume, repeated network flows, repeated destination ports, abnormal packet rates, and multiple suspicious connections targeting the same service.
+
+DDoS Investigation
+
+When DDoS activity is detected, security analysts should investigate source and destination traffic patterns, examine traffic volume and packet rates, check whether the targeted service is experiencing abnormal load, and correlate related network events.
+
+DDoS Mitigation
+
+Possible mitigation approaches include traffic filtering, rate limiting, firewall rules, network monitoring, and using appropriate DDoS protection mechanisms. The appropriate response depends on the organization's security environment.
+
+BENIGN Traffic
+
+BENIGN traffic represents normal network communication that does not show the characteristics of the attack classes being detected by the model. Benign classification does not guarantee that traffic is completely safe; it means that the observed traffic matches the model's learned benign patterns.
+
+Network Event Correlation
+
+Event correlation combines multiple network events to identify repeated or related patterns. Repeated destination ports, repeated classifications, and similar traffic characteristics can provide additional context for threat investigation.
+
+Risk Assessment
+
+Risk assessment considers threat detection results and other contextual information such as event correlation and prediction confidence. A higher severity classification may require faster investigation and response.
+
+Security Analyst Investigation
+
+A security analyst should review the detected threat, examine related network events, validate the evidence, check relevant security alerts, and determine whether further response actions are required.
+
+Firewall and IDS/IPS
+
+Firewalls control network traffic according to configured security rules. Intrusion Detection and Prevention Systems can monitor network activity for suspicious patterns and may alert or block traffic depending on the system and configuration.
+
+Rate Limiting
+
+Rate limiting restricts the amount or frequency of traffic allowed to reach a service. It can help reduce the effect of excessive traffic when appropriately configured.
+
+Threat Hunting
+
+Threat hunting is the proactive process of searching for suspicious activity and patterns that may indicate security threats. It combines security data, detection techniques, event correlation, and analyst investigation.
