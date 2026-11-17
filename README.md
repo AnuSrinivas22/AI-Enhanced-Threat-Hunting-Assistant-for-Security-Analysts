@@ -200,7 +200,7 @@ Follow these steps to set up the project locally.
 
 Step 1: Clone the Repository
 
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/AnuSrinivas22/AI-Enhanced-Threat-Hunting-Assistant-for-Security-Analysts>
 
 Navigate to the project directory:
 
